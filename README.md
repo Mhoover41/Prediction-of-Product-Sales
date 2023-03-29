@@ -1,1 +1,2 @@
-# Prediction-of-Product-Sales
+# **Prediction of Product Sales**
+- **Author:** Melissa Hoover
