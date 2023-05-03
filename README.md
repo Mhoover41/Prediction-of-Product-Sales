@@ -49,5 +49,7 @@ The purpose of this project is to help retailers increase sales by predicting fo
    
    ![#7 Total Sales by Outlet Location Type](https://user-images.githubusercontent.com/127150137/236072869-b5da30f1-0650-4716-b993-f2c0d3b6554f.png)
   
-
-  
+## **Key Insights:**
+  - Customers are buying more Low Fat foods than Regular
+  - Tier 3 Location Outlet Type contributed the most to sales
+  - Vegetables and Fruits had the highest sales with Snack foods being a close second
