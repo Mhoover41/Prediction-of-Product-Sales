@@ -53,3 +53,17 @@ The purpose of this project is to help retailers increase sales by predicting fo
   - Customers are buying more Low Fat foods than Regular
   - Tier 3 Location Outlet Type contributed the most to sales
   - Vegetables and Fruits had the highest sales with Snack foods being a close second
+
+## **Recommendations:**
+   
+### Model Recommended: Decision Tree
+
+   - Decision Tree had the lowest MAE of 738.36. This means our model was off on it's predictions by $738.36.
+
+   - The mean Item Outlet Sales was $2181.39 which translates to an error percentage of 33.85%.
+
+   - We have a lower error percentage on Decision Tree vs Linear Regression.
+
+   - The Root Mean Squared Error is also lower for the Decision Tree, meaning that there are less outliers throwing off the weight of our model.
+
+   - The R2 score is higher/better on the Decision Tree Model and this model uses 59.47% of the variance of the data. 
