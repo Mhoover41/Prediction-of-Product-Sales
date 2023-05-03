@@ -3,8 +3,7 @@
 
 The purpose of this project is to help retailers increase sales by predicting food items sold at various stores and better understand what affects the sales.
 
-![alt text](https://github.com/[Mhoover41]/[Prediction-of-Product-Sales]/blob/[branch]/image.jpg?raw=true)
-https://github.com/Mhoover41/Prediction-of-Product-Sales/blob/main/Data%20Dictionary.png
+![Data Dictionary](https://user-images.githubusercontent.com/127150137/236072592-f1a358bd-42af-4489-945b-95c302f61c96.png)
 
 ## **Key Questions:**
 
