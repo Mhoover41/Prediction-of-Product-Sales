@@ -17,7 +17,7 @@ https://github.com/Mhoover41/Prediction-of-Product-Sales/blob/main/Data%20Dictio
 3) **Which Item type has the most sales?** 
    Fruits and Vegetables has the highest sales with Seafood having the lowest sales. Fruits and Vegetables accounted for 15% of sales, Snack Foods 14%, and Household        Items 11%. 
 
-4) **Which outlet size had the most sales?
+4) **Which outlet size had the most sales?**
    Medium outlet size had the most item outlet sales at 40% however we also had 23% of values that are unknown.
 
 5) **Which Item Fat Content had the highest sales?**  
