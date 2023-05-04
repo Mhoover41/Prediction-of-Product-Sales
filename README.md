@@ -3,7 +3,9 @@
 - **Email:** Hoovermissy@yahoo.com
 - **LinkedIn:** https://www.linkedin.com/in/melissajhoover/
 
-The purpose of this project is to help retailers increase sales by predicting food items sold at various stores and better understand what affects the sales.
+![food image](https://user-images.githubusercontent.com/127150137/236332353-921ef586-379a-49c6-8d5f-acac12d98304.jpg)
+
+The purpose of this report is to help retailers increase sales by predicting food items sold at various stores and better understand what affects the sales.
 
 ## **Data Source:**
 https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
