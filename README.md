@@ -1,9 +1,11 @@
 # **Prediction of Product Sales**
 - **Author:** Melissa Hoover
 - **Email:** Hoovermissy@yahoo.com
-- **LinkedIn: **
+- **LinkedIn:** https://www.linkedin.com/in/melissajhoover/
 
 The purpose of this project is to help retailers increase sales by predicting food items sold at various stores and better understand what affects the sales.
+
+## **Data Dictionary**
 
 ![Data Dictionary](https://user-images.githubusercontent.com/127150137/236072592-f1a358bd-42af-4489-945b-95c302f61c96.png)
 # **Exploratory Data Analysis**:
