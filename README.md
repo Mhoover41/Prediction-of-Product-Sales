@@ -58,9 +58,9 @@ The purpose of this project is to help retailers increase sales by predicting fo
    
 ### Model Recommended: Decision Tree
 
-   - Decision Tree had the lowest MAE of 738.36. This means our model was off on it's predictions by $738.36.
+   - Decision Tree had the lowest MAE of 738.36. This means our model was off on it's predictions by ₹738.36.
 
-   - The mean Item Outlet Sales was $2181.39 which translates to an error percentage of 33.85%.
+   - The mean Item Outlet Sales was ₹2181.39 which translates to an error percentage of 33.85%.
 
    - We have a lower error percentage on Decision Tree vs Linear Regression.
 
