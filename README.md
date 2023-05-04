@@ -6,7 +6,9 @@
 The purpose of this project is to help retailers increase sales by predicting food items sold at various stores and better understand what affects the sales.
 
 ## **Data Source:**
-
+https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+## **Data Link:**
+[sales_predictions_2023.csv](https://github.com/Mhoover41/Prediction-of-Product-Sales/files/11401628/sales_predictions_2023.csv)
 
 ## **Data Dictionary**
 
