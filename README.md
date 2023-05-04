@@ -5,6 +5,9 @@
 
 The purpose of this project is to help retailers increase sales by predicting food items sold at various stores and better understand what affects the sales.
 
+## **Data Source:**
+
+
 ## **Data Dictionary**
 
 ![Data Dictionary](https://user-images.githubusercontent.com/127150137/236072592-f1a358bd-42af-4489-945b-95c302f61c96.png)
@@ -13,6 +16,10 @@ The purpose of this project is to help retailers increase sales by predicting fo
 - A barplot was visualized for each categorical column. 
 - This gave a good baseline for all of the numeric and categorical columns for univariate EDA. 
 
+![Fat bar plot](https://user-images.githubusercontent.com/127150137/236330360-859ccc7a-1b3c-4b01-a3a7-0aeeb5bab1bb.png)
+
+
+This bar plot shows the distribution of Low Fat items versus Regular.
 
 # **Explanatory Data Analysis**:
 
