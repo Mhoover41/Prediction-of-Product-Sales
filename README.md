@@ -4,6 +4,13 @@
 The purpose of this project is to help retailers increase sales by predicting food items sold at various stores and better understand what affects the sales.
 
 ![Data Dictionary](https://user-images.githubusercontent.com/127150137/236072592-f1a358bd-42af-4489-945b-95c302f61c96.png)
+# **Exploratory Data Analysis**:
+- During the exploratory data analysis, a boxplot and histogram was visualized for each numeric datatype column. 
+- A barplot was visualized for each categorical column. 
+- This gave a good baseline for all of the numeric and categorical columns for univariate EDA. 
+
+
+# **Explanatory Data Analysis**:
 
 ## **Key Questions:**
 
@@ -53,6 +60,24 @@ The purpose of this project is to help retailers increase sales by predicting fo
   - Customers are buying more Low Fat foods than Regular
   - Tier 3 Location Outlet Type contributed the most to sales
   - Vegetables and Fruits had the highest sales with Snack foods being a close second
+
+## **Machine Learning Using the Following Models:**
+- Linear Regression Model
+- Decision Tree Regressor Model
+
+## **Models Evaluated & Results:**
+
+- Linear Regression Model (Testing Set):
+  - MAE: 803.9572
+  - MSE: 1,194,317.0807
+  - RMSE: 1,092.8482
+  - R2: 0.5671
+
+- Tuned Decision Tree Regressor Model (Testing Set):
+  - MAE: 738.3556
+  - MSE: 1,118,187.9463
+  - RMSE: 1,057.4441
+  - R2: 0.5947
 
 ## **Recommendations:**
    
