@@ -106,4 +106,13 @@ This bar plot shows the distribution of Low Fat items versus Regular.
 
    - The Root Mean Squared Error is also lower for the Decision Tree, meaning that there are less outliers throwing off the weight of our model.
 
-   - The R2 score is higher/better on the Decision Tree Model and this model uses 59.47% of the variance of the data. 
+   - The R2 score is higher/better on the Decision Tree Model and this model uses 59.47% of the variance of the data.
+
+## Project Revisited
+- Linear Regression Model:  Coefficient Plot
+
+![linear_regression_top3_coefficients](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/1b00fe25-cad9-4bd2-85cc-53ea14b59c1e)
+
+- Random Forest Model:  Feature Importances Plot
+  
+![default_random_forest_top5_important_features](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/6103304e-197d-40d0-8d9f-48328774fed4)
