@@ -109,7 +109,15 @@ This bar plot shows the distribution of Low Fat items versus Regular.
    - The R2 score is higher/better on the Decision Tree Model and this model uses 59.47% of the variance of the data.
 
 ## Project Revisited
-- Linear Regression Model:  Coefficient Plot
+**Linear Regression Model:**
+Interpreting Our Model's Coefficients
+   - Intercept: Our model assumed a baseline Item Outlet Sales of -₹137.99
+   - Outlet_Type_Grocery Store:
+      - If the item sold belongs to this category, the Item_Outlet_Sales will be decreased by ₹1590.41.
+   - Outlet_Type_Supermarket Type 3:
+      - If the item sold belongs to this category, the Item Outlet Sales increases by ₹1500.88
+   - Outlet_Type_Supermarket Type 1: 
+      - If the item sold belongs to this category, the Item Outlet Sales increases Item Outlet Sales by ₹275.17
 
 ![linear_regression_top3_coefficients](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/1b00fe25-cad9-4bd2-85cc-53ea14b59c1e)
 
