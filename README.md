@@ -135,4 +135,27 @@ Interpreting Our Model's Coefficients
 
 - SHAP summary plot - bar version
 
-  
+![part2_shap_summary_plot_bar](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/45985ef7-57be-4c84-bd2f-44fa0f993156)
+
+**Comparison of Shap vs Random Forest Feature Importances**
+- The only difference is the order is swapped in the 3rd and 4th features (Item_Visibility & Outlet_Type_Supermarket Type 3)
+
+**Summary plot - with plot_type='dot'**
+
+![part2_shap_summary_plot_dot (1)](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/37713b12-761d-463e-8cee-801c8cebdee2)
+
+
+**Top 3 most important features and how they influence the model's predictions**
+1. Item_MRP
+   - This feature has the largest effect on the model's predictions as it was the first bar at the top of the plot.
+   - Since the red dots are on the positive side, it means that the higher the Item_MRP, the more likely the model would predict that outlet sales is high
+2. Outlet_Type_Grocery Store
+   - This is a One-Hot-Encoded feature.
+   - Since the red dots are on the negative side, it means that it is less likely that the model will predict high outlet sales if Outlet Type is Outlet_Type_Grocery Store.
+   - If Outlet_Type_Grocery Store == 1, the model is less likely to predict high outlet sales.
+   - If Outlet_Type_Grocery Store == 0, the model is more likely to predict high outlet sales.
+3. Outlet_Type_Supermarket Type3
+   - This is a One-Hot-Encoded feature.
+   - Since the red dots are on the positive side, it means that if the item is sold at Outlet_Type_Supermarket Type3, it is more likely that the model will predict the item to have high outlet sales.
+   - If Outlet_Type_Supermarket Type3 == 1, the model is more likely to predict high outlet sales.
+   - If Outlet_Type_Supermarket Type3 == 0, the model is less likely to predict high outlet sales.
