@@ -119,8 +119,16 @@ Interpreting Our Model's Coefficients
    - Outlet_Type_Supermarket Type 1: 
       - If the item sold belongs to this category, the Item Outlet Sales increases Item Outlet Sales by ₹275.17
 
+### Linear Regression Top 3 Coefficients
+
 ![linear_regression_top3_coefficients](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/1b00fe25-cad9-4bd2-85cc-53ea14b59c1e)
 
-- Random Forest Model:  Feature Importances Plot
+### Linear Regression Evaluation: 
+   - Training Data:	R2= 0.56	RMSE= 1115.77
+   - Test Data:	   R2= 0.56	RMSE= 1164.92
+   - The mean Item Outlet Sales was ₹2181.39 which translates to an error percentage of %.
+
+**Random Forest Model:**  
+Feature Importances Plot
   
 ![default_random_forest_top5_important_features](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/6103304e-197d-40d0-8d9f-48328774fed4)
