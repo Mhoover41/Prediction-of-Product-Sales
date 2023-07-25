@@ -129,6 +129,10 @@ Interpreting Our Model's Coefficients
    - The mean Item Outlet Sales was ₹2181.39 and the mean absolute error was 859 which translates to an error percentage of 39.4 %.
 
 **Random Forest Model:**  
-Feature Importances Plot
+- Feature Importances Plot
   
 ![default_random_forest_top5_important_features](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/6103304e-197d-40d0-8d9f-48328774fed4)
+
+- SHAP summary plot - bar version
+
+  
