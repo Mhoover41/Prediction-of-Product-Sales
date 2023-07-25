@@ -126,7 +126,7 @@ Interpreting Our Model's Coefficients
 ### Linear Regression Evaluation: 
    - Training Data:	R2= 0.56	RMSE= 1115.77
    - Test Data:	   R2= 0.56	RMSE= 1164.92
-   - The mean Item Outlet Sales was ₹2181.39 which translates to an error percentage of %.
+   - The mean Item Outlet Sales was ₹2181.39 and the mean absolute error was 859 which translates to an error percentage of 39.4 %.
 
 **Random Forest Model:**  
 Feature Importances Plot
