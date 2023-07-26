@@ -159,3 +159,64 @@ Interpreting Our Model's Coefficients
    - Since the red dots are on the positive side, it means that if the item is sold at Outlet_Type_Supermarket Type3, it is more likely that the model will predict the item to have high outlet sales.
    - If Outlet_Type_Supermarket Type3 == 1, the model is more likely to predict high outlet sales.
    - If Outlet_Type_Supermarket Type3 == 0, the model is less likely to predict high outlet sales.
+
+
+## Individual Examples:
+I selected a row that had the lowest value in the target column and a row that had the highest value in the target column.
+
+**Example 1: Store that had the item with highest sales (within the 400 samples of SHAP) had Outlet_Type of Supermarket Type1**
+
+
+### LIME tabular explanation
+
+![limetablular1PNG](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/5d2a5d17-f481-402c-afc4-726430262edc)
+
+**Interpretation:**
+
+- Item from Supermarket Type 1 group had a high predicted outlet sales value of 6673.35.
+- Item_MRP being > 180.25 had a positive impact on the outlet sales.
+- Not being an Outlet_Type_Grocery Store (Value == 0) had a positive impact on the outlet sales.
+- Not being an Outlet_Type_Supermarket Type3 (Value == 0) had a negative impact on the outlet sales
+
+### Force Plot
+
+![forceplot1](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/0e4a1e0b-47bb-4f4b-af09-d80d3434dbd6)
+
+**Interpretation:**
+
+- Base value = 2155
+- SHAP value = 6673.35
+- The contributions of the red features are greater than the blue, which means there is a greater "push" towards higher outlet sales, so the final prediction is high outlet sales.
+- The features that influenced predictions the most (in order from most to least) are as follows:
+   - Item_MRP
+   - Item_Weight
+   - Item_Visibility
+   - Outlet_Type_Grocery Store = 0
+   - Outlet_Size_Missing= 1
+
+**Example 2: Store that had the item with lowest sales (within the 400 samples of SHAP) had Outlet_Type of Grocery Store**
+
+### LIME tabular explanation
+
+![limetablularexplanation2](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/dd7d03ed-0c4b-476d-bbb8-aab86c2b3ba5)
+
+
+**Interpretation:**
+
+- Item_MRP being <= 90.72 had a negative impact on the outlet sales.
+- Outlet_Type_Grocery Store (Value == 1) had a negative impact on the outlet sales.
+- Not being an Outlet_Type_Supermarket Type3 (Value == 0) had a negative impact on the outlet sales
+
+  ### Force Plot
+
+![forceplot2](https://github.com/Mhoover41/Prediction-of-Product-Sales/assets/127150137/7da11591-07d7-405b-80ac-293ebdbf72c3)
+
+
+  **Interpretation:**
+
+  - Base value = 2155
+  - SHAP value = 64.12
+  - The contributions of the BLUE features are greater than the RED, which means there is a greater "push" towards LOWER outlet sales, so the final prediction is LOW outlet sales.
+  - The features that influenced predictions the most (in order from most to least) are as follows:
+      - Item_MRP
+      - Outlet_Type_Grocery Store = 1
